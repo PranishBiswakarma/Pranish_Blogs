@@ -2,8 +2,11 @@ Pranish Biswakarma | Full Stack Developer & Cybersecurity Enthusiast 🚀
 
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-pranish--biswakarma-blue?logo=linkedin&style=flat-square)](https://www.linkedin.com/in/pranish-biswakarma)
+
+
 [![GitHub](https://img.shields.io/badge/GitHub-PranishBiswakarma-black?logo=github&style=flat-square)](https://github.com/PranishBiswakarma)
-to my personal developer blog and portfolio, built with GatsbyJS! I use this platform to share my projects, tutorials, security insights, and document my journey as a full stack developer and cybersecurity specialist.
+
+Welcome to my personal developer blog and portfolio, built with GatsbyJS! I use this platform to share my projects, tutorials, security insights, and document my journey as a full stack developer and cybersecurity specialist.
 
 🚩 About This Project
 This is the source code for my developer blog and project portfolio, powered by Gatsby (React) and markdown, with my own custom content, branding, and project showcases.
