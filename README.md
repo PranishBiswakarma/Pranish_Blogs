@@ -31,9 +31,9 @@ See on GitHub »
 
 To run locally:
 
-git clone https://github.com/PranishBiswakarma/your-blog-repo.git
+git clone https://github.com/PranishBiswakarma/Pranish_Blogs.git
 
-cd your-blog-repo
+cd Pranish_Blogs
 
 npm install
 
