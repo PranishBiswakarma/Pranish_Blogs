@@ -9,15 +9,17 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter Blog`,
+    title: `Pranish Biswakarma | Full Stack & Cybersecurity`,
     author: {
-      name: `Kyle Mathews`,
-      summary: `who lives and works in San Francisco building useful things.`,
+      name: `Pranish Biswakarma`,
+      summary: `Full Stack Developer & Cybersecurity Enthusiast 🚀 Building next-gen apps and securing digital frontiers.`,
     },
-    description: `A starter blog demonstrating what Gatsby can do.`,
-    siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
+    description: `Showcasing my work in full stack development, app development, and cybersecurity. Projects, tutorials, and insights.`,
+    siteUrl: `https://pranishbiswakarma.dev/`, // Replace this with your deployed URL later
     social: {
-      twitter: `kylemathews`,
+      twitter: `pranishbiswakarma`,   // Add your Twitter handle or remove
+      github: `PranishBiswakarma`,
+      linkedin: `pranishbiswakarma`,
     },
   },
   plugins: [
@@ -53,6 +55,7 @@ module.exports = {
             },
           },
           `gatsby-remark-prismjs`,
+          // You can add more remark plugins here for code highlighting, etc.
         ],
       },
     },
@@ -102,7 +105,7 @@ module.exports = {
               }
             }`,
             output: "/rss.xml",
-            title: "Gatsby Starter Blog RSS Feed",
+            title: "Pranish Biswakarma Blog RSS Feed",
           },
         ],
       },
@@ -110,16 +113,16 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `Gatsby Starter Blog`,
-        short_name: `Gatsby`,
+        name: `Pranish Biswakarma Portfolio`,
+        short_name: `PranishDev`,
         start_url: `/`,
-        background_color: `#ffffff`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
+        background_color: `#0a192f`, // Deep navy for modern look
+        theme_color: `#64ffda`,      // Vibrant teal accent color
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/pranish-icon.png`, // Replace with your logo or remove if none
       },
     },
+    `gatsby-plugin-react-helmet`, // Allows you to control document head for SEO
+    // Add more plugins as needed here for SEO, sitemap, offline, analytics, etc.
   ],
 }
